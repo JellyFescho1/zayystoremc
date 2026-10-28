@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1765f5" />
+  <title>ZayyStore — Minecraft Digital Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="promo"><span>✦</span> Promo launch ZayyStore — diskon 20% untuk produk pilihan <strong> ZAYY20</strong></div>
+  <header class="header">
+    <a class="brand" href="#"><span class="brand-mark">Z</span><span><b>ZAYY<span>STORE</span></b><small>MINECRAFT DIGITAL STORE</small></span></a>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Buka menu">☰</button>
+    <nav id="nav">
+      <a class="active" href="#home">Beranda</a><a href="#produk">Produk⌄</a><a href="#server">Server Minecraft</a><a href="#topup">Top Up</a><a href="#keunggulan">Keunggulan</a>
+    </nav>
+    <div class="header-actions"><button class="icon-btn" id="searchToggle" aria-label="Cari">⌕</button><button class="cart-btn" id="cartOpen">♧ <span id="cartCount">0</span></button><button class="login-btn" id="loginBtn">Login</button></div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> TOKO DIGITAL MINECRAFT</div>
+        <h1>Upgrade dunia<br />Minecraft <span>kamu.</span></h1>
+        <p>Temukan akun, rank, server premium, dan item favoritmu. Proses simpel, harga bersahabat, pengalaman belanja lebih nyaman.</p>
+        <div class="hero-buttons"><a class="primary-btn" href="#produk">✦ Jelajahi Produk <span>→</span></a><a class="secondary-btn" href="#server">▣ Lihat Server</a></div>
+        <div class="hero-proof"><div class="avatar-stack"><i>⚔</i><i>⛏</i><i>◆</i><i>✦</i></div><div><b>Komunitas Minecraft</b><small>Mulai petualanganmu bersama ZayyStore</small></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="floating-tag tag-one"><span class="tag-icon">✦</span><span><b>Item Premium</b><small>Ready buat petualangan</small></span></div>
+        <div class="pixel-sun"></div>
+        <div class="island">
+          <div class="grass-top"><span></span><span></span><span></span></div>
+          <div class="dirt-side"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="block block-a">◆</div><div class="block block-b">✦</div>
+          <div class="hero-character"><div class="char-head"><div class="hair"></div><div class="eyes"><i></i><i></i></div><div class="mouth"></div></div><div class="char-body"><span class="arm left"></span><span class="arm right"></span><span class="sword">╱</span></div><div class="char-legs"><i></i><i></i></div></div>
+          <div class="creeper"><div class="creeper-face">▪ ▪<br/> ▾ </div></div>
+        </div>
+        <div class="floating-tag tag-two"><span class="tag-icon blue">↗</span><span><b>Checkout mudah</b><small>Belanja tanpa ribet</small></span></div>
+        <div class="sparkle s1">✦</div><div class="sparkle s2">✧</div><div class="sparkle s3">✦</div>
+      </div>
+    </section>
+    <section class="trust-strip" id="keunggulan">
+      <div class="trust-item"><span class="trust-icon">◇</span><div><b>Aman & Terpercaya</b><small>Transaksi lebih nyaman</small></div></div>
+      <div class="trust-item"><span class="trust-icon">ϟ</span><div><b>Proses Praktis</b><small>Alur order yang simpel</small></div></div>
+      <div class="trust-item"><span class="trust-icon">☏</span><div><b>Bantuan Friendly</b><small>Siap bantu saat dibutuhkan</small></div></div>
+      <div class="trust-item"><span class="trust-icon">✧</span><div><b>Harga Bersahabat</b><small>Pilihan untuk semua player</small></div></div>
+    </section>
+    <section class="section" id="kategori">
+      <div class="section-heading"><div><span class="section-kicker">PILIH PETUALANGANMU</span><h2>Kategori <span>populer</span></h2></div><a href="#produk" class="see-all">Lihat semua <b>→</b></a></div>
+      <div class="category-grid">
+        <a class="category-card cat-server" href="#server"><div class="cat-art">🏰</div><b>Server Minecraft</b><small>Jelajahi server <span>↗</span></small></a>
+        <a class="category-card cat-account" href="#produk"><div class="cat-art">⛏️</div><b>Akun Minecraft</b><small>Temukan akun <span>↗</span></small></a>
+        <a class="category-card cat-topup" href="#topup"><div class="cat-art">🪙</div><b>Top Up & Coins</b><small>Tambah saldo <span>↗</span></small></a>
+        <a class="category-card cat-rank" href="#produk"><div class="cat-art">👑</div><b>Rank Premium</b><small>Naik level <span>↗</span></small></a>
+        <a class="category-card cat-items" href="#produk"><div class="cat-art">💎</div><b>Item & Kosmetik</b><small>Lengkapi item <span>↗</span></small></a>
+      </div>
+    </section>
+    <section class="section products-section" id="produk">
+      <div class="section-heading"><div><span class="section-kicker">FAVORIT PLAYER</span><h2>Produk <span>terlaris</span></h2></div><div class="filters"><button class="filter active" data-filter="all">Semua</button><button class="filter" data-filter="account">Akun</button><button class="filter" data-filter="server">Server</button><button class="filter" data-filter="topup">Top Up</button></div></div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="account"><div class="product-image image-account"><span class="product-badge">POPULER</span><div class="pixel-scene">⛏️<strong>JAVA<br>& BEDROCK</strong><span>◆</span></div><button class="quick-view" aria-label="Lihat produk">↗</button></div><div class="product-info"><div class="product-type">AKUN MINECRAFT</div><h3>Minecraft Java & Bedrock</h3><p>Akun original • Detail lengkap</p><div class="product-meta"><span>★ 5.0</span><small>• Produk digital</small></div><div class="product-bottom"><strong>Rp 89.000</strong><button class="add-cart" data-name="Minecraft Java & Bedrock" data-price="89000">＋</button></div></div></article>
+        <article class="product-card" data-category="server" id="server"><div class="product-image image-server"><span class="product-badge badge-green">SERVER</span><div class="voxel-art">🏞️<strong>YOUR<br>OWN WORLD</strong></div><button class="quick-view" aria-label="Lihat produk">↗</button></div><div class="product-info"><div class="product-type">HOSTING SERVER</div><h3>Server Minecraft 1GB</h3><p>Java • Setup mudah</p><div class="product-meta"><span>★ 5.0</span><small>• Paket starter</small></div><div class="product-bottom"><strong>Rp 15.000</strong><button class="add-cart" data-name="Server Minecraft 1GB" data-price="15000">＋</button></div></div></article>
+        <article class="product-card" data-category="server"><div class="product-image image-premium"><span class="product-badge">BEST VALUE</span><div class="voxel-art">🌌<strong>PREMIUM<br>SERVER</strong></div><button class="quick-view" aria-label="Lihat produk">↗</button></div><div class="product-info"><div class="product-type">HOSTING SERVER</div><h3>Server Minecraft 2GB</h3><p>Untuk teman mabar</p><div class="product-meta"><span>★ 5.0</span><small>• Paket populer</small></div><div class="product-bottom"><strong>Rp 25.000</strong><button class="add-cart" data-name="Server Minecraft 2GB" data-price="25000">＋</button></div></div></article>
+        <article class="product-card" data-category="topup" id="topup"><div class="product-image image-coins"><span class="product-badge badge-gold">TOP UP</span><div class="coin-art">🪙<strong>COINS<br>PACK</strong></div><button class="quick-view" aria-label="Lihat produk">↗</button></div><div class="product-info"><div class="product-type">TOP UP</div><h3>Minecraft Coins Pack</h3><p>Paket coins pilihan</p><div class="product-meta"><span>★ 5.0</span><small>• Digital item</small></div><div class="product-bottom"><strong>Rp 49.000</strong><button class="add-cart" data-name="Minecraft Coins Pack" data-price="49000">＋</button></div></div></article>
+        <article class="product-card" data-category="account"><div class="product-image image-rank"><span class="product-badge badge-purple">RANK</span><div class="rank-art">👑<strong>VIP<br>RANK</strong></div><button class="quick-view" aria-label="Lihat produk">↗</button></div><div class="product-info"><div class="product-type">RANK PREMIUM</div><h3>VIP Rank [30 Hari]</h3><p>Untuk server pilihan</p><div class="product-meta"><span>★ 5.0</span><small>• Digital item</small></div><div class="product-bottom"><strong>Rp 20.000</strong><button class="add-cart" data-name="VIP Rank 30 Hari" data-price="20000">＋</button></div></div></article>
+      </div>
+    </section>
+    <section class="stats-banner"><div class="stats-cube">⛏️</div><div class="stats-copy"><span>BUILT FOR MINECRAFT PLAYERS</span><h2>Mulai petualanganmu<br/>bersama <b>ZayyStore.</b></h2></div><div class="stat"><strong>100%</strong><small>Fokus pada player</small></div><div class="stat"><strong>24/7</strong><small>Info bisa diakses</small></div><div class="stat"><strong>∞</strong><small>Petualangan baru</small></div></section>
+    <section class="newsletter"><div class="news-icon">✉</div><div><h3>Jangan ketinggalan update!</h3><p>Dapatkan info produk dan promo terbaru dari ZayyStore.</p></div><form id="newsletterForm"><input type="email" placeholder="Masukkan email kamu" required/><button class="primary-btn">Gabung <span>→</span></button></form></section>
+  </main>
+  <footer class="footer"><div class="footer-main"><div class="footer-about"><a class="brand" href="#"><span class="brand-mark">Z</span><span><b>ZAYY<span>STORE</span></b><small>MINECRAFT DIGITAL STORE</small></span></a><p>Toko digital untuk kebutuhan petualangan Minecraft kamu. Pilih produk, temukan dunia baru, dan main bareng teman.</p><div class="socials"><a href="#">◎</a><a href="#">◉</a><a href="#">▶</a><a href="#">✉</a></div></div><div class="footer-col"><b>Jelajahi</b><a href="#produk">Semua Produk</a><a href="#server">Server Minecraft</a><a href="#topup">Top Up</a><a href="#kategori">Kategori</a></div><div class="footer-col"><b>Informasi</b><a href="#">Tentang Kami</a><a href="#">Cara Pembelian</a><a href="#">Syarat & Ketentuan</a><a href="#">Kebijakan Privasi</a></div><div class="footer-col"><b>Bantuan</b><a href="#">FAQ</a><a href="#">Hubungi Kami</a><a href="#">Status Pesanan</a><a href="#">Panduan</a></div><div class="footer-col payment-col"><b>Pembayaran</b><div class="payment-pills"><span>QRIS</span><span>💳 Transfer Bank</span><span>e-Wallet</span></div><small>Metode pembayaran akan tersedia setelah integrasi payment gateway.</small></div></div><div class="footer-bottom"><span>© 2026 ZayyStore. Dibuat untuk para Minecraft players.</span><span>Made with <b>♥</b> for the community</span></div></footer>
+  <div class="toast" id="toast"></div>
+  <div class="overlay" id="cartOverlay"><aside class="cart-drawer"><div class="drawer-head"><div><span class="section-kicker">KERANJANG KAMU</span><h2>Keranjang <span>belanja</span></h2></div><button id="cartClose" class="close-btn">×</button></div><div id="cartItems" class="cart-items"><div class="empty-cart">🛒<b>Keranjang masih kosong</b><small>Tambahkan produk yang kamu suka.</small></div></div><div class="cart-total"><span>Total sementara</span><strong id="cartTotal">Rp 0</strong><button id="checkoutBtn" class="primary-btn full">Lanjut checkout →</button><small>Demo tampilan: pembayaran belum diaktifkan.</small></div></aside></div>
+  <div class="modal-overlay" id="loginModal"><div class="modal"><button class="close-btn modal-close" id="loginClose">×</button><div class="modal-logo">Z</div><span class="section-kicker">WELCOME BACK</span><h2>Masuk ke <span>ZayyStore</span></h2><p>Member area akan membantu kamu mengelola pesanan.</p><form id="loginForm"><label>Email</label><input type="email" placeholder="nama@email.com" required/><label>Password</label><input type="password" placeholder="Masukkan password" required/><button class="primary-btn full">Masuk <span>→</span></button></form><small class="demo-note">Login demo saja — autentikasi belum terhubung.</small></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
