@@ -1,0 +1,25 @@
+{
+  "name": "zayystoremc",
+  "version": "1.0.0",
+  "description": "ZayyStore — Minecraft Digital Store",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "python3 -m http.server 8080",
+    "preview": "python3 -m http.server 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JellyFescho1/zayystoremc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JellyFescho1/zayystoremc/issues"
+  },
+  "homepage": "https://github.com/JellyFescho1/zayystoremc#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
